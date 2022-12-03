@@ -30,7 +30,7 @@ html, body {
    color: #FFF; */
   height: 80px;
   padding: 1em; 
-  
+
 }
 
 /* .top-nav {
@@ -39,7 +39,6 @@ html, body {
   position: sticky;
   top: 0px;
 }
-
 .top-nav::before {
   content: "";
   background-color: black;
@@ -69,7 +68,7 @@ html, body {
 }
 
 .menu > li {
-  
+
   margin: 0 1rem;
   overflow: hidden;
   height: 30px;
@@ -83,7 +82,7 @@ html, body {
   /* padding-right:10px; */
   /* border-bottom:1px solid; */
   /* border-color:#333; */ 
-  
+
 }
 .menu > li> a{
   font-family: 'Quicksand', sans-serif;
@@ -95,7 +94,7 @@ html, body {
 }
 
 .menu >li:hover{
- 
+
   transform: scaleX(1.1);
   transition: all;
   transform-origin: center;
@@ -103,7 +102,7 @@ html, body {
 }
 .menu >li>a:hover{
   color: #222;
- 
+
 }
 
 .menu-button-container {
@@ -210,7 +209,7 @@ html, body {
   margin-left: 30px;
   margin-right: 30px;
   color: rgb(0, 0, 0);
- 
+
 }
 .h-p>p{
   font-family: 'Domine', serif;
@@ -237,9 +236,6 @@ html, body {
   font-family: 'Domine', serif;
   text-align: center;
   align-items: center;
-
-
-
 } */
 
 .h-p>a:link, a:visited 
@@ -252,7 +248,7 @@ html, body {
     display: inline-block;
     margin-left: 40px;
     margin-top: 10px;
- 
+
 }
 .h-p>a:hover{
   transition: all;
@@ -267,7 +263,7 @@ html, body {
 
 /* responsice css code */
 
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .menu-button-container {
     display: flex;
   }
@@ -321,7 +317,7 @@ html, body {
     justify-content: center;
     align-items: center;
   }
-  
+
   .home::before {
     content: "";
     position: absolute;
@@ -338,7 +334,7 @@ html, body {
     /* border: 2px solid black; */
   }
   .h-p{
-   
+
     /* border: 2px solid black; */
     margin-top: 100px;
     height: 250px;
@@ -347,9 +343,9 @@ html, body {
     max-height: fit-content;
     justify-content: center;
     margin-left: 760px;
-  
-  
-  
+
+
+
   }
   .h-p>h1{
     margin-top: 30px;
@@ -360,7 +356,7 @@ html, body {
     margin-left: 39px;
     margin-right: 30px;
     color: rgb(0, 0, 0);
-   
+
   }
   .h-p>p{
     font-family: 'Domine', serif;
@@ -370,7 +366,7 @@ html, body {
     margin-left: 40px;
     margin-right: 40px;
   }
-  
+
 .h-p>a:link, a:visited 
 {
     background-color: rgb(165, 17, 17);
@@ -381,7 +377,7 @@ html, body {
     display: inline-block;
     margin-left: 40px;
     margin-top: 10px;
- 
+
 }
 .h-p>a:hover{
   transition: all;
